@@ -21,6 +21,3 @@ function listener () {
     console.log('Success');
   }, 250);
 }
-
-
-
