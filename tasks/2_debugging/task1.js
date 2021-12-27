@@ -1,6 +1,6 @@
 /*
-Uruchom ten plik w trybie debugowania i otwórz go w narzędziach deweloperskich w Chrome.
-Aplikacja będzie zatrzymanana na linii 12.
+Uruchom ten program w trybie debugowania i otwórz go w narzędziach deweloperskich w Chrome.
+Aplikacja będzie zatrzymanana na linii `f();`.
 Zrób zmianę w kodzie, aby kolejne zatrzymanie aplikacji nastąpiło po pierwszym wykonaniu polecenia IF.
 */
 
