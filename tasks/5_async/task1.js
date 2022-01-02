@@ -1,5 +1,5 @@
 /*
-Zmień poniższy kod w liniach 8-12, tak aby po uruchomieniu skryptu zostało do konsoli wypisane:
+Zmień poniższy kod w liniach 17-20, tak aby po uruchomieniu skryptu zostało do konsoli wypisane:
 Patience
 you must
 have my

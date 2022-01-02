@@ -16,7 +16,7 @@ const react = deplist.find(([name]) => name === 'react').pop();
 const redux = deplist.find(([name]) => name === 'redux').pop();
 const { range } = new semver.Range(react);
 
-assert(range === '>=16.0.0 <17.0.0', 'react should be greater than or equal to 16.0.0');
+assert(range === '>=16.0.0 <17.0.0-0', 'react should be greater than or equal to 16.0.0');
 
 assert(redux === '4.1.2', 'redux should be at exactly 4.1.2');
 
