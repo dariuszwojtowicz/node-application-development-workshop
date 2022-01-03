@@ -9,10 +9,6 @@ Zadanie zostało zrealizowane poprawnie jeśli w terminalu został wypisany teks
 const { execSync } = require('child_process');
 
 function exercise (myEnvVar) {
-  return execSync(
-    `node child.js`,
-    { env: { MY_ENV_VAR: myEnvVar } }
-  )
 }
 
 module.exports = exercise;
