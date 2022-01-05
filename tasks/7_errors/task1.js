@@ -7,12 +7,8 @@ Zadanie zostało zrealizowane poprawnie jeśli po uruchomieniu `node test.js` w 
 const fs = require('fs');
 
 async function readFile(filePath) {
-  try {
-    const fileContent = await fs.promises.readFile(filePath);
-    return fileContent;
-  } catch {
-    throw new Error('failed to read');
-  }
+  const fileContent = await fs.promises.readFile(filePath);
+  return fileContent;
 }
 
 module.exports = readFile;
